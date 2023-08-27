@@ -49,7 +49,6 @@ export class RegisterPage {
 
       this.router.navigate(['/productlist']);
 
-      // Restablecer los valores para el siguiente usuario
       this.id = this.usuarios.length + 1;
       this.rut = "";
       this.email = "";
