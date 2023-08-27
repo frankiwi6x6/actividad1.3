@@ -15,7 +15,7 @@ import { usuarios } from 'src/app/app.component';
 export class RegisterPage {
   mensajeError: string = "";
   error: boolean = false;
-  usuarios: any[] = []; // Define la variable "usuarios" aquí
+  usuarios: any[] = []; 
   constructor(private router: Router) { }
 
   id: number = this.usuarios.length + 1;
